@@ -19,7 +19,7 @@ def load_images():
     pieces = ["bR", "bN", "bB", "bQ", "bK", "bP", "wR", "wN", "wB", "wQ", "wK", "wP"]
     images = {}
     for piece in pieces:
-        images[piece] = pygame.transform.scale(pygame.image.load(f"images/{piece}.png"), (SQUARE_SIZE, SQUARE_SIZE))
+        images[piece] = pygame.transform.scale(pygame.image.load(f"https://github.com/AnupamDB/Anupam-Dev-Burman-21BCE11049/tree/master/images/{piece}.png"), (SQUARE_SIZE, SQUARE_SIZE))
     return images
 
 # Draw the board
